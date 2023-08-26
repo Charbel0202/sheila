@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.myHeader{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/architect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7rem;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    height: 70px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.myMenu{
+    display: none;
+}
+
+.icoMenu{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: none;
+}
+
+.sheila{
+    letter-spacing: 10px;
+}
+
+.sheila:hover{
+    color: rgb(86, 176, 206);
+    transition: 0.4s;
+}
+
+.navbar1{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navbar1 :hover{
+    color: gray;
+    transition: 0.6s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar2{
+    list-style-type: none;
+    display: none;
+    text-align: left;
+    background-color: lightblue;
+    height: 130px;
+    position: relative;
+    top: 60px;
+    padding-top: 15px;
+    margin: 0px;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.navbar2 :hover{
+    color: gray;
+    transition: 0.4s;
+}
+
+.navbar2 li{
+    margin: 15px;
+    padding-right: 38px;
+}
+
+
+
+
+
+
+.myHeader p{
+    margin-left: 60px;
+    margin-top: 70px;
+    background-color: white;
+    height: 90px;
+    width: 450px;
+    padding: 20px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+
+.imgDisc{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    top: -35px;
+}
+
+@media screen and (max-width: 767px) {
+    .myHeader p{
+        margin-left: 60px;
+        margin-top: 70px;
+        background-color: white;
+        height: 90px;
+        width: 250px;
+        padding: 20px;
+        border-radius: 50px 0 50px 0;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+    }
+
+    .myHeader{
+        width: auto;
+        height: 100vh;
+        background-image: url(../img/architect.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 7rem;
+    }
+    
+    .navbar1{
+        list-style-type: none;
+        display: none;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 20%;
+    }
+
+    .navbar1 :hover{
+        color: gray;
+        transition: 0s;
+    }
+
+    .icoMenu{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .myMenu{
+        display: block;
+    }
+}

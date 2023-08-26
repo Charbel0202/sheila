@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>sheila's portfolio</title>
+    <link rel="icon" href="img/favicon.jfif" />
+</head>
+<body>
+    <header class="myHeader" style="margin-bottom: 100px;">
+        <nav class="navbar">
+            <a href="index.html" class="sheila">Sheila</a>
+            <ul class="navbar1">
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a class="actif" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="myMenu">
+                <img class="icoMenu" onclick="open_navbar2()" src="img/Menu_icon_icon-icons.com_71858.png" alt="menu">
+                <ol class="navbar2" id="navbar2">
+                    <li><a href="about.html" onclick="close_navbar2()">About</a></li>
+                    <li><a href="skills.html" onclick="close_navbar2()">Skills</a></li>
+                    <li><a href="contact.html" onclick="close_navbar2()">Contact</a></li>
+                </ol>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 style="border-bottom: 1px grey solid; padding-bottom: 20px;"><span style="color: lightblue;">Get</span> in touch</h1>
+        <div class="information">
+            <div>
+                <section class="section">
+                    <span class="info">Whatsapp:</span>
+                    <p>+229 99 81 26 26</p>
+                </section>
+                <section class="section">
+                    <span class="info">Freelance:</span>
+                    <p>Available</p>
+                </section>
+            </div>
+            <div>
+                <section class="section">
+                    <span class="info">Address:</span>
+                    <p>Calavi-Tokan</p>
+                </section>
+                <section class="section">
+                    <span class="info">Mail:</span>
+                    <p>sheilaazo80@gmail.com</p>
+                </section>
+            </div>
+        </div>
+        <h1 style="border-bottom: 1px grey solid; padding-bottom: 20px;"><span style="color: lightblue;">Send</span> Message</h1>
+        <div>
+            <form action="" id="form">
+                <div class="input_div">
+                    <input type="text" id="name" placeholder="Your name" autocomplete="off">
+                    <input type="email" id="mail" placeholder="Your mail">
+                </div>
+                <div>
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p style="text-align: center;">@Powered by Charb.H</p>
+    </footer>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
